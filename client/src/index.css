@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+* {
+  scrollbar-width: none;        /* Firefox */
+  -ms-overflow-style: none;     /* IE / Edge */
+}
+
+*::-webkit-scrollbar {
+  display: none;                /* Chrome / Safari */
+}
+:root {
+  --bg-color: #ffffff;
+  --text-color: #111827;
+}
+
+.dark {
+  --bg-color: #09090b;
+  --text-color: #f8fafc;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: all 0.3s ease;
+}
