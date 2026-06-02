@@ -1,24 +1,30 @@
 # AceMind AI
 
-AI-powered study workspace for students.
+AI-powered study platform that helps students generate exam-focused notes, revision sheets, viva preparation material, diagrams, and downloadable PDFs using AI.
+
+---
 
 ## Features
 
-- Google Authentication
-- AI Notes Generation
-- Revision Mode
-- Viva Preparation
-- History Tracking
-- Credit System
-- Stripe Payments
-- PDF Export
+- AI-powered note generation
+- Exam-focused revision sheets
+- Viva preparation mode
+- Deep study mode
+- PDF export functionality
+- Credit-based usage system
+- Google Authentication (Firebase)
+- Notes history tracking
+- Stripe payment integration
+- Diagram and chart support
+
+---
 
 ## Tech Stack
 
 ### Frontend
 - React.js
-- Tailwind CSS
 - Redux Toolkit
+- Tailwind CSS
 - Framer Motion
 
 ### Backend
@@ -26,7 +32,7 @@ AI-powered study workspace for students.
 - Express.js
 
 ### Database
-- MongoDB
+- MongoDB Atlas
 
 ### Authentication
 - Firebase Authentication
@@ -34,13 +40,81 @@ AI-powered study workspace for students.
 ### Payments
 - Stripe
 
+---
+
+## Screenshots
+
+### Home Page
+
+![Home](screenshots/home.png)
+
+### Notes Generation
+
+![Notes](screenshots/notes.png)
+
+### Notes History
+
+![History](screenshots/history.png)
+
+### Pricing Page
+
+![Pricing](screenshots/pricing.png)
+
+---
+
 ## Installation
 
+### Clone Repository
+
 ```bash
+git clone YOUR_REPO_URL
+```
+
+### Frontend
+
+```bash
+cd client
 npm install
 npm run dev
 ```
 
+### Backend
+
+```bash
+cd server
+npm install
+npm start
+```
+
+---
+
+## Environment Variables
+
+### Client (.env)
+
+```env
+VITE_FIREBASE_APIKEY=your_key
+```
+
+### Server (.env)
+
+```env
+MONGO_URI=your_mongodb_uri
+STRIPE_SECRET_KEY=your_key
+CLIENT_URL=http://localhost:5173
+```
+
+---
+
+## Future Improvements
+
+- AI Quiz Generation
+- Flashcards
+- Study Analytics Dashboard
+- Multi-language Support
+
+---
+
 ## Author
 
-Rakshit Tomar
+**Rakshit Tomar**
