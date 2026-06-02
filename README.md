@@ -67,7 +67,7 @@ AI-powered study platform that helps students generate exam-focused notes, revis
 ### Clone Repository
 
 ```bash
-git clone YOUR_REPO_URL
+git clone https://github.com/raksh1t-dev/AceMind-AI.git
 ```
 
 ### Frontend
