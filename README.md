@@ -46,19 +46,19 @@ AI-powered study platform that helps students generate exam-focused notes, revis
 
 ### Home Page
 
-![Home](screenshots/home.png)
+![Home](screenshots/home.png.png)
 
 ### Notes Generation
 
-![Notes](screenshots/notes.png)
+![Notes](screenshots/notes.png.png)
 
 ### Notes History
 
-![History](screenshots/history.png)
+![History](screenshots/history.png.png)
 
 ### Pricing Page
 
-![Pricing](screenshots/pricing.png)
+![Pricing](screenshots/pricing.png.png)
 
 ---
 
